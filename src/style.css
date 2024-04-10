@@ -1,1 +1,21 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+/*Le da estilo al body*/
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+/*Le da estilo al h1*/
+h1 {
+  font-size: 50px;
+}
+/*Le da estilo al parrafo*/
+p {
+  font-size: 30px;
+  font-style: italic;
+}
